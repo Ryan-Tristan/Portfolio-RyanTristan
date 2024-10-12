@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
-import ThemeContext from '../context/themecontext';
+import ThemeContext from '../context/ThemeContext';
 
 
 
