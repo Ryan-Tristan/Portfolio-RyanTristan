@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { PROJECTS } from "../constants/info"
-import ThemeContext from '../context/themecontext'
+import ThemeContext from '../context/ThemeContext'
 
 const Projects = () => {
     const {DarkMode} = useContext(ThemeContext)
