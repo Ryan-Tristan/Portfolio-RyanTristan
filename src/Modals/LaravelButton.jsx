@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { IoIosClose } from "react-icons/io";
-import ThemeContext from '../context/themecontext';
+import ThemeContext from '../context/ThemeContext';
 
 const LaravelButton = ({openLaravel, onClose, children}) => {
     const {DarkMode} = useContext(ThemeContext);
