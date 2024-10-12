@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import ProfilePic from '../assets/Ryan.jpg'
-import ThemeContext from '../context/themecontext';
+import ThemeContext from '../context/ThemeContext';
 
 const Desc = () => {
     const {DarkMode} = useContext(ThemeContext);
