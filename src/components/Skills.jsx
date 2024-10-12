@@ -5,7 +5,7 @@ import { FaLaravel } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiRstudioide } from "react-icons/si";
-import ThemeContext from '../context/themecontext';
+import ThemeContext from '../context/ThemeContext';
 
 // Overlays
 
