@@ -1,6 +1,6 @@
 
 import React, {useState} from "react"
-import ThemeContext from "./context/themecontext"
+import ThemeContext from "./context/ThemeContext"
 import Dashboard from "./components/Dashboard"
 
 
