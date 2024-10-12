@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import ThemeContext from '../context/themecontext'
+import ThemeContext from '../context/ThemeContext'
 const Contact = () => {
   const {DarkMode} = useContext(ThemeContext)
   return (
