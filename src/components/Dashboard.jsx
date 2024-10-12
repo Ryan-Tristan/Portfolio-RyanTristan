@@ -4,7 +4,7 @@ import Skills from "./Skills"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import React, {useContext} from "react"
-import ThemeContext from "../context/themecontext"
+import ThemeContext from "../context/ThemeContext"
 
 
 
