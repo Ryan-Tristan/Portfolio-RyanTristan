@@ -6,8 +6,6 @@ import Contact from "./Contact"
 import React, {useContext} from "react"
 import ThemeContext from "../context/ThemeContext"
 
-
-
 const Dashboard = () => {
     const {DarkMode} = useContext(ThemeContext);
   return (

@@ -20,10 +20,37 @@ const Navbar = () => {
         </h2>
       </div>
       <div className={`m-2 sm:m-6 flex items-center justify-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl text-bold ${DarkMode ? "text-white" : "text-slate-800"}`}>
-        <a href="https://www.linkedin.com/in/ryan-tristan-wijaya/"><FaLinkedin/></a>
-        <a href="https://github.com/Ryan-Tristan"><FaGithub/> </a>
-        <a href="https://www.instagram.com/ryan_triwi/"><FaInstagram/></a>
-        <button onClick={toggleDarkMode}><MdDarkMode /></button>
+        <a 
+          className={`transition-colors duration-200 ${
+            DarkMode 
+              ? "text-white hover:text-neutral-400" 
+              : "text-slate-800 hover:text-slate-400"
+          }`} href="https://www.linkedin.com/in/ryan-tristan-wijaya/">
+          <FaLinkedin/>
+        </a>
+        <a 
+          className={`transition-colors duration-200 ${
+            DarkMode 
+              ? "text-white hover:text-neutral-400" 
+              : "text-slate-800 hover:text-slate-400"
+          }`}
+          href="https://github.com/Ryan-Tristan">
+          <FaGithub/>
+        </a>
+        <a 
+          className={`transition-colors duration-200 ${
+            DarkMode 
+              ? "text-white hover:text-neutral-400" 
+              : "text-slate-800 hover:text-slate-400"
+          }`}
+          href="https://www.instagram.com/ryan_triwi/" >
+          <FaInstagram/>
+        </a>
+        <button onClick={toggleDarkMode} className={`transition-colors duration-200 ${
+            DarkMode 
+              ? "text-white hover:text-neutral-400" 
+              : "text-slate-800 hover:text-slate-400"
+          }`}><MdDarkMode /></button>
       </div>
     </nav>
   )
