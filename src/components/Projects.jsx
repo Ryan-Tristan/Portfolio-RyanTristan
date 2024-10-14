@@ -16,11 +16,16 @@ const Projects = () => {
                     <div className="w-full max-w-xl lg:w-3/4">
                         <h6 className={`mb-4 font-bold text-3xl ${DarkMode ? "text-white" : "text-slate-900"}`}>{project.title}</h6>
                         <p className={`mb-4 font-semibold text-1xl ${DarkMode ? "text-white" : "text-slate-900"}`}>{project.description}</p>
-                        {project.technologies.map((tech, index) =>(
-                            <span key={index} className={`mr-2 overflow-auto inline-block whitespace-nowrap rounded border-2 border-slate-800 px-2 py-1 text-lg font-bold text-slate-800 ${DarkMode ? "text-white bg-purple-500 hover:bg-purple-200" : "text-slate-800 bg-blue-100 hover:bg-blue-300"}`}>{tech}
-                                
-                            </span>
-                        ))}
+                         {project.technologies.map((tech, index) => (
+                                    <span
+                                        key={index}
+                                        className={`mr-2 mb-2 inline-block rounded border-2 border-slate-800 px-2 py-1 text-lg font-bold ${
+                                            DarkMode
+                                                ? "text-white bg-purple-500 hover:bg-purple-200"
+                                                : "text-slate-800 bg-blue-100 hover:bg-blue-300"
+                                        }`} >
+                                        {tech}
+                                    </span>
                     </div>
                 </div>
             ))}
