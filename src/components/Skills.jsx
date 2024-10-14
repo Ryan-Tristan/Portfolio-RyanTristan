@@ -45,7 +45,7 @@ const Skills = () => {
                     </div>
                     <div className="mx-auto my-4 w-48">
 
-                        <p className={`text-sm ${DarkMode ? "text-white" : "text-black"}`}>
+                        <p className={`text-sm text-left ${DarkMode ? "text-white" : "text-black"}`}>
                             I have used ReactJS to create this website portfolio, a stock dashboard, and many more projects to come. 
                         </p>
                     </div> 
@@ -66,7 +66,7 @@ const Skills = () => {
                     </div>
                     <div className="mx-auto my-4 w-48">
 
-                        <p className={`text-sm ${DarkMode ? "text-white" : "text-black"}`}>
+                        <p className={`text-sm text-left ${DarkMode ? "text-white" : "text-black"}`}>
                             I have used NodeJS to create a discord bot that sets timer for specific raids in game (WIP).
                         </p>
                     </div> 
@@ -87,7 +87,7 @@ const Skills = () => {
                     </div>
                     <div className="mx-auto my-4 w-48">
 
-                        <p className={`text-sm ${DarkMode ? "text-white" : "text-black"}`}>
+                        <p className={`text-sm text-left ${DarkMode ? "text-white" : "text-black"}`}>
                             I have used Laravel to create my Entrepreneur Group Project which is a website that handles commissions for artists and managing their portfolio (WIP).
                         </p>
                     </div> 
@@ -99,21 +99,21 @@ const Skills = () => {
 
             <div className={`rounded-2xl border-4 border-neutral-800 p-4 bg-neutral-800 ${DarkMode ? "bg-neutral-800 border-neutral-800" : "bg-neutral-800 border-neutral-800"}`}>
                 <button onClick={() => SetOpenPython(true)}>
-                <FaPython className="text-7xl"/>
+                <FaPython className="text-7xl left-2 text-blue-500 bg-yellow-300 rounded-full p-1"/>
                 </button>
             </div>
 
             <PythonButton openPython = {openPython} onClose={() => SetOpenPython(false)}>
                 <div className="text-center w-56">
                     <div className="container flex items-center">
-                    <FaPython size={48} className="left-2"/>
+                    <FaPython size={48} className="left-2 text-blue-500 bg-yellow-300 rounded-full p-1"/>
                     <h3 className={`text-1xl p-2 font-bold ${DarkMode ? "text-white" : "text-black"}`}>
                         Python
                     </h3>
                     </div>
                     <div className="mx-auto my-4 w-48">
 
-                        <p className={`text-sm ${DarkMode ? "text-white" : "text-black"}`}>
+                        <p className={`text-sm text-left ${DarkMode ? "text-white" : "text-black"}`}>
                             I have used Python to create an AutoSorter Program on a mac and have used python for data analysis with machine learning for prediction using clustering and classification.
                         </p>
                     </div> 
@@ -137,7 +137,7 @@ const Skills = () => {
                     </div>
                     <div className="mx-auto my-4 w-48">
 
-                        <p className={`text-sm ${DarkMode ? "text-white" : "text-black"}`}>
+                        <p className={`text-sm text-left ${DarkMode ? "text-white" : "text-black"}`}>
                             I have used R in my university for Data mining to figure out the frequent datasets of multiple objects.
                         </p>
                     </div> 
