@@ -22,7 +22,7 @@ const Desc = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img className="rounded-lg w-100 shadow-2xl" src={ProfilePic} alt="" />
+                    <img className="rounded-full w-100 shadow-2xl" src={ProfilePic} alt="" />
                 </div>
             </div>
         </div>
