@@ -6,7 +6,7 @@ const Projects = () => {
     const {DarkMode} = useContext(ThemeContext)
   return (
     <div className={`border-b pb-4 ${DarkMode ? "border-white" : "border-neutral-900"}`}>
-        <h2 className={`my-20 text-center text-4xl ${DarkMode ? "text-white" : "text-slate-800"}`}>Projects</h2>
+        <h2 className={`my-20 text-center text-4xl ${DarkMode ? "text-white" : "text-slate-800"}`}>Technical Experience</h2>
         <div>
             {PROJECTS.map((project, index) => (
                 <div key={index} className="mb-8 flex flex-wrap sm:justify-center md:justify-center lg:justify-center">
@@ -23,8 +23,8 @@ const Projects = () => {
                                         key={index}
                                         className={`mr-2 mb-2 inline-block rounded border-2 border-slate-800 px-2 py-1 text-lg font-bold ${
                                             DarkMode
-                                                ? "text-white bg-purple-500 hover:bg-purple-200"
-                                                : "text-slate-800 bg-blue-100 hover:bg-blue-300"
+                                                ? "text-white bg-purple-500 hover:bg-purple-200 hover:cursor-default"
+                                                : "text-slate-800 bg-blue-100 hover:bg-blue-300 hover:cursor-default"
                                         }`}
                                     >
                                         {tech}

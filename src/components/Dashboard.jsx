@@ -5,6 +5,7 @@ import Projects from "./Projects"
 import Contact from "./Contact"
 import React, {useContext} from "react"
 import ThemeContext from "../context/ThemeContext"
+import Volunteering from "./Volunteering"
 
 const Dashboard = () => {
     const {DarkMode} = useContext(ThemeContext);
@@ -19,6 +20,7 @@ const Dashboard = () => {
               <Navbar />
               <Desc />
               <Skills />
+              <Volunteering />
               <Projects />
               <Contact />
             </div>

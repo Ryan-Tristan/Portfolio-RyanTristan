@@ -24,7 +24,7 @@ const Desc = () => {
                     initial={{x:-100, opacity:0}} 
                     animate={{x:0, opacity:1}} 
                     transition={{duration: 0.5, delay: 1 }} 
-                     className={`max-w-xl py-6 font-semibold tracking-tighter text-xl ${DarkMode ? "text-white" : "text-slate-700 "}`}>
+ope                     className={`max-w-xl py-6 font-semibold tracking-tighter text-xl ${DarkMode ? "text-white" : "text-slate-700 "}`}>
                         I am a Computer Science student specializing in Database courses, with a strong passion for hands-on programming and development. 
                         I consistently strive for efficiency in my work and am committed to continuous learning to further enhance my skills.
                     </motion.p>
